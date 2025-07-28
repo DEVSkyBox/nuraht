@@ -14,7 +14,7 @@ const Index = () => {
     <div className="min-h-screen bg-background overflow-x-hidden">
       <Navigation />
       <HeroSection />
-      <video src={Video} autoPlay loop muted style={{opacity: 0.25, top:920, position: 'absolute', }} id='bg-video' className='video-bg-container' / >
+      <video src={Video} autoPlay loop muted style={{opacity: 0.25, top: 920, position: 'absolute', }} id='bg-video' className={`video-bg-container ${BackgroundVideo} `} / >
       <ProductsSection />
       <FeaturesSection />
       <CTASection />

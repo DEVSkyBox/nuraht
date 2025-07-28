@@ -50,7 +50,7 @@ const HeroSection = () => {
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-[-250px] left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="absolute md:bottom-[-250px] bottom-[-130px] left-1/2 transform -translate-x-1/2 animate-bounce">
           <div className="w-8 h-12 border-2 border-foreground/30 rounded-full flex justify-center">
             <div className="w-1 h-3 transform rotate-[-45deg] bg-foreground/30 rounded-full mt-6"></div>
             <div className="w-1 h-5 bg-foreground/30 rounded-full mt-3"></div>
